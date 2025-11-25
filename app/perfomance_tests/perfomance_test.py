@@ -121,7 +121,7 @@ def run_full_pipeline_test():
     # Step 1 — Load rules
     rules = load_rules(rules_path)
 
-    # Step 2 — Load text (streaming)
+    # Step 2 — Load text
     print("Loading text from file...")
     text_data = "\n".join(list(read_large_file(file_path)))
     print(f"Loaded text length: {len(text_data):,} characters")
@@ -173,8 +173,5 @@ def run_full_pipeline_test():
     print("\n===== PERFORMANCE TEST COMPLETED =====")
 
 
-# ------------------------------------------------------------
-# MAIN
-# ------------------------------------------------------------
 if __name__ == "__main__":
     run_full_pipeline_test()
