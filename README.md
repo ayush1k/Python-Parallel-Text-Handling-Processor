@@ -369,7 +369,7 @@ This saves compute and prevents duplicates.
 - **Charan Teja Mangali** — Lead Developer, System Architect & Mentor
 
 ### 🎓 Student Contributors  
-- **Ayush Kumar** —     
+- **Ayush Kumar**
 
 ---
 
